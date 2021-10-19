@@ -1,0 +1,397 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #222831;
+}
+.content {
+  background: url("../img/hero image.png") no-repeat center top;
+  margin-top: -17px;
+  padding-top: 40px;
+}
+header {
+  max-width: 1240px;
+  margin: 40px auto auto;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 117px;
+}
+.navbar-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 433px;
+  width: 100%;
+}
+.navbar-item {
+  list-style: none;
+}
+.navbar-link {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.navbar-reg_button {
+  background: #1f4aa8;
+  border-radius: 39px;
+  padding: 17px 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.tagline-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 88px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+.tagline-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.055em;
+  color: #fff;
+  margin-bottom: 95px;
+}
+.booking {
+  max-width: 1240px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 20px 44px 25px;
+  margin-top: -55px;
+  margin-bottom: 100px;
+}
+.booking-list {
+  display: flex;
+  list-style: none;
+  border-bottom: 1px solid #c1c1c1;
+  padding-bottom: 10px;
+  margin-bottom: 31px;
+}
+.booking-item {
+  margin-right: 50px;
+}
+.booking-item > .active {
+  color: #1f4aa8;
+  border-bottom: 3px solid #1f4aa8;
+  padding-bottom: 10px;
+}
+.booking-link {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #888aa2;
+}
+.booking-lists {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.booking-btns {
+  display: flex;
+}
+.booking-btn {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+}
+.booking-btn > .pasive {
+  width: 24px;
+  height: 24px;
+  border: 3px solid #1f4aa8;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.pasive.active {
+  background: url("../img/Ellipse 3.svg") no-repeat center center;
+}
+.booking-btn_text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.booking-downlist {
+  display: flex;
+  align-items: center;
+}
+.booking-downlist a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1f4aa8;
+}
+.booking-downlist li {
+  list-style: none;
+  position: relative;
+}
+.booking-downlist li:hover .sub-booking-list {
+  display: block;
+}
+.booking-downitem.mr {
+  margin-right: 28px;
+}
+.sub-booking-list {
+  display: none;
+  min-width: 120px;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  padding: 15px 0px 0px 0px;
+}
+.sub-booking-list > li {
+  background: #222831;
+  padding: 5px 10px;
+}
+.sub-booking-list a {
+  color: #fff;
+}
+.booking-gownlink > span {
+  margin-right: 15px;
+}
+
+.booking-inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.booking-inp {
+  border: 0.5px solid #bfbfbf;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 14px 17px;
+  max-width: 364px;
+  width: 100%;
+}
+.booking-inp_img {
+  margin-right: 13px;
+}
+.booking-from {
+  border: none;
+}
+.booking-change {
+  border: 1px solid #000000;
+  background: transparent;
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.booking-calendary {
+  padding: 13px 19px;
+  max-width: 175px;
+  width: 100%;
+}
+.booking-calendary_span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+.booking-calendary_date {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+}
+.booking-inp_to {
+  margin-right: 15px;
+}
+.booking-search {
+  background: #1f4aa8;
+  border-radius: 39px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  border: none;
+  padding: 20px 87px;
+  display: flex;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.recomendation {
+  max-width: 1240px;
+  margin: 0 auto 100px;
+}
+.recomendation-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #ffffff;
+  margin-bottom: 27px;
+}
+.recomendation-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.recomendation-group_right,
+.recomendation-group_down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.recomendation_title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.recomendation_span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.moraine {
+  position: relative;
+  margin-bottom: 35px;
+}
+.moraine-text {
+  position: absolute;
+  left: 63px;
+  bottom: 30px;
+}
+.hokokuji {
+  position: relative;
+}
+.hokokuji-text {
+  position: absolute;
+  left: 30px;
+  bottom: 18px;
+}
+.kirkjufell {
+  position: relative;
+}
+.kirkjufell-text {
+  position: absolute;
+  left: 30px;
+  bottom: 6px;
+}
+.cappadocia {
+  position: relative;
+  margin-right: 35px;
+}
+.cappadocia-text {
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+}
+.ubud {
+  position: relative;
+}
+.ubud-text {
+  position: absolute;
+  left: 30px;
+  bottom: 16px;
+}
+.recomendation-img {
+  border-radius: 16px;
+}
+.download {
+  max-width: 580px;
+  margin: 0 auto 100px;
+}
+.download-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #ffffff;
+}
+.download-refers {
+  display: flex;
+  align-items: center;
+}
+.footer {
+  max-width: 1440px;
+  background-color: #133b5c;
+  margin: 0 auto;
+}
+.footer-wrapper {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-top: 42px;
+  padding-bottom: 135px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo_img {
+  margin-bottom: 67px;
+}
+.footer-logo_text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.footer-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.footer-list {
+  padding: 0;
+}
+.footer-item {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.footer-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-list.touch {
+  margin-bottom: 70px;
+}
+.website.mr {
+  margin-right: 30px;
+}
